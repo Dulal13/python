@@ -1,8 +1,8 @@
-import math
-def logarithm(base, num):
-    if(n%base != 0):
-        print("Invalid")
+def area_shape(base, height, shape):
+    if(shape=="triangle"):
+        return base*height*0.5
     else:
-         print(math.log(num , base))
+        return base*height
 
-logarithm(0,len("How"))
+a = area_shape(2.9, 1.3, "parallelogram")
+print(a)
